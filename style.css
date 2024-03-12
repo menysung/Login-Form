@@ -15,7 +15,8 @@ body {
   /* flex로 가운데 정렬시 위 세개 다 써야함 */
   height: 100vh;
   /* 100vh : 화면높이의 100%. 높이가 없으면 정렬이 제대로 안 된다*/
-  background-color: seagreen;
+  background: url(images/bg.jpg) no-repeat center;
+  background-size: cover;
 }
 .wrapper {
   width: 420px;
