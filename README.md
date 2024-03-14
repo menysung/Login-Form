@@ -8,4 +8,4 @@
 - Flex
 - 필터효과
 - 깃허브 페이지로 배포🐱‍🏍
-- [배포주소] (https://github.com/menysung/Login-Form)
+- [배포주소] (https://menysung.github.io/Login-Form/)
