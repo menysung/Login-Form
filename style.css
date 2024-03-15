@@ -25,51 +25,84 @@ body {
   /* border 투명한 흰색 */
   padding: 30px 40px;
 }
+
 .wrapper h1 {
-  font-size: 36px;
+  font: 28px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.wrapper h5 {
+  font-size: 13px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.login-option {
+  margin-top: 20px;
   text-align: center;
 }
+
+.login-option h5 {
+  margin: 0;
+}
+
+.login-option a {
+  text-decoration: none;
+  color: black;
+  border: solid black 1px;
+  box-sizing: border-box;
+  line-height: 50px;
+}
+
 .wrapper .input-box {
   width: 100%;
   height: 30px;
-  margin: 50px 0;
+  margin: 5px 0;
   color: black;
 }
 .input-box {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 90%;
-  background: white;
-  border-bottom: 1px solid black;
+  margin-top: 10px;
+}
+
+.input-box input[type="text"],
+.input-box input[type="password"] {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid rgb(199, 194, 194);
+  background: transparent;
   font-size: 15px;
-  color: black;
-  padding: 20px 20px;
-  position: relative;
+  color: rgb(194, 189, 189);
+  margin-left: 0px;
+}
+.input-box input[type="text"]:focus,
+.input-box input[type="password"]:focus {
+  outline: none;
+  border-bottom: 1px solid black;
 }
 
 .input-box ::placeholder {
   color: grey;
 }
 
-.wrapper .remember-forgot {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14.5px;
-  margin: 0 15px;
+.input-box :focus:hover {
   color: black;
 }
-.remember-forgot label input {
-  accent-color: black;
-  margin-right: 3px;
-}
-.remember-forgot a {
+
+.wrapper .remember-forget {
+  font-size: 14px;
   color: grey;
-  text-decoration: none;
+  margin-bottom: 30px;
+  text-align: left;
 }
-.remember-forgot a:hover {
-  text-decoration: underline;
+
+.remember-forget[type="checkbox"] {
+  color: rgb(194, 189, 189);
 }
+
 .wrapper .btn {
   width: 100%;
   height: 50px;
